@@ -42,7 +42,6 @@ message CreatePersonRequest {
     repeated Role roles = 2;
     optional string birthDate = 3;
     optional string bio = 4;
-    optional string photoUrl = 5;
 }
 
 message UpdatePersonRequest {
@@ -51,7 +50,6 @@ message UpdatePersonRequest {
     repeated Role roles = 3;
     string birthDate = 4;
     string bio = 5;
-    string photoUrl = 6;
 }
 
 message ListPeopleRequest {}
